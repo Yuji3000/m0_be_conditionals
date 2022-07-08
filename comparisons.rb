@@ -23,25 +23,25 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
 # this should print: true
-
+number_teachers < number_students
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
 # this should print: false
-
+number_teachers == string_teachers
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
 # this should print: true
-
+number_teachers != number_students
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
 # this should print: true
-
+number_students >= 20
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
 # this should print: false
-
+number_students >= 21
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
 # this should print: true
-
+number_students <= 20
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
 # this should print: true
-
+number_students <= 21
 
 #-------------------
 # PART 2: Articulating what you are doing
@@ -58,17 +58,17 @@ puts 4 < 9
 books = 3
 puts 4 < books
 # YOU DO: Explain.
-
+#This would be false. 4 is not less than the number of books(3)
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
-
+#This would be true. The number of friends (6) is greater than siblings (2)
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
-
+# The number of attendees and meals are not equal
 
 #-------------------
 # PART 3: Logical Operators
@@ -80,8 +80,10 @@ finished_homework = false
 # EXAMPLE:
 # Determine if the user is hungry and has completed their homework
 is_hungry && finished_homework
+#false
 # Determine if the user is hungry or has completed their homework
 is_hungry || finished_homework
+#true
 
 loves_to_play = true
 loves_dog_park = false
@@ -90,15 +92,15 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+ loves_to_play = true && loves_treats = true
 
 # Determine if the dog loves to play and loves the dog park
-
+loves_to_play = true && loves_dog_park = false
 
 # Determine if the dog loves to play or loves the dog park
-
+loves_to_play = true || loves_dog_park = false
 
 # Determine if the dog loves to play and is a puppy
-
+loves_to_play = true && age <= 1
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
