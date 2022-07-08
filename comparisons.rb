@@ -103,4 +103,5 @@ loves_to_play = true || loves_dog_park = false
 # Determine if the dog loves to play and is a puppy
 loves_to_play = true && age <= 1
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER:True. I set the comparison parameters to the age of the dog. Assuming
+# that a puppy is 1 year old or younger
