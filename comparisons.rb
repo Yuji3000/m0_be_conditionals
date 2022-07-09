@@ -79,10 +79,10 @@ finished_homework = false
 
 # EXAMPLE:
 # Determine if the user is hungry and has completed their homework
-is_hungry && finished_homework
+puts is_hungry && finished_homework
 #false
 # Determine if the user is hungry or has completed their homework
-is_hungry || finished_homework
+puts is_hungry || finished_homework
 #true
 
 loves_to_play = true
@@ -92,16 +92,16 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
- loves_to_play = true && loves_treats = true
+puts loves_to_play = true && loves_treats = true
 
 # Determine if the dog loves to play and loves the dog park
-loves_to_play = true && loves_dog_park = false
+puts loves_to_play = true && loves_dog_park = false
 
 # Determine if the dog loves to play or loves the dog park
-loves_to_play = true || loves_dog_park = false
+puts loves_to_play = true || loves_dog_park = false
 
 # Determine if the dog loves to play and is a puppy
-loves_to_play = true && age <= 1
+puts loves_to_play = true && age <= 1
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:True. I set the comparison parameters to the age of the dog. Assuming
 # that a puppy is 1 year old or younger
